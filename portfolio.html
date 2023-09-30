@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./Portfolio Page/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-image-container">   
+                <img src="./Portfolio Page/profile-pic.png" alt="Profile Picture">
+                <h1>VEDANT DESAI</h1>
+            </div>
+            <div class="header-navigation">
+                <nav>
+                    <a href="#HOME">HOME</a>
+                    <a href="#ABOUT">ABOUT</a>
+                    <a href="#PROJECTS">PROJECTS</a>
+                    <a href="#CONTACT">CONTACT</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="HOME" style="background-image: url(https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80); background-size: cover;">
+        <h1>HEY, I'M VEDANT DESAI</h1>
+        <p>A creative web developer and designer Explore my work below, <br> where art meets code</p>
+        <button><a href="#PROJECTS">PROJECTS</a></button>
+    </section>
+    <section id="ABOUT">
+        <div class="about-heading">
+            <h1>ABOUT ME</h1>
+            <div class="hor-bar-cont">
+                <div class="horizontal-bar"></div>
+            </div>
+            <p>Here you will find out more details about my skills!</p>
+        </div>
+        <div class="about-container">
+            <div class="about-details">
+                <h4>KNOW ME</h4>
+
+                <P>I'm on an exciting journey in the world of programming and web development. Having mastered Python, I'm now expanding my skills into Java, C, and the core web technologies like HTML, CSS, and JavaScript.</P>
+
+                <p>As a Frontend Web Developer, I specialize in crafting engaging user interfaces. You can explore my work in the Projects section.I share insights on <a href="https://www.linkedin.com/in/desai-vedant/" id="linkedin-hyperlink">LinkedIn</a> to help others on their coding journey.</p> 
+                    
+                <p>I'm eager to continue learning and growing as a Full Stack Developer. If you have opportunities that align with my skills and ambition, please reach out. I'm ready to contribute and thrive in the dynamic field of web development.</p>
+
+                <button><a href="#CONTACT" id="contact-button">CONTACT</a></button>
+            </div>
+            <div class="about-skills">
+                <h4>SKILLS</h4>
+                <ul>
+                    <li>PYTHON</li>
+                    <li>JAVA</li>
+                    <li>C</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="PROJECTS">
+        <div class="projects">
+            <div class="projects-header">
+                <h1>PROJECTS</h1>
+                <div class="hor-bar-cont">
+                    <div class="horizontal-bar"></div>
+                </div>
+                <p>In this Section you will find the details of some of my Projects!</p>
+            </div>
+            <div class="project-row plagarism-checker">
+                <div class="plagarism-checker-image project-image">
+                    <img src="./Portfolio Page/plag-che.png" alt="">
+                </div>
+                <div class="plagarism-checker-details project-details">
+                    <h4>PLAGARISM CHECKER</h4>
+                    <P>Developed an efficient Offline Plagiarism Checker that compare and identify similarities between two documents. Utilized Python for both the backend and frontend, allowing users to compare documents and detect common sentences. This project was inspired by the rising importance of e-learning and aims to provide educators with a valuable tool to maintain academic integrity.
+                    </P>
+                    <a href="https://github.com/Desai-Vedant/Plagiarism-Checker" id="plagarism-checker-link" target="_blank">CHECK OUT</a>
+                </div>
+            </div>
+            <div class="project-row aidesk">
+                <div class="aidesk-image project-image">
+                    <img src="./Portfolio Page/aidesk.png" alt="">
+                </div>
+                <div class="aidesk project-details">
+                    <h4>AIDESK</h4>
+                    <P>AIDesk - Your Personal Desktop Assistant: A powerful Python-based assistant that streamlines your computer tasks. Interact through voice or text, perform web searches, open websites, take screenshots, check the weather, and get AI-powered responses. Make your computing experience smarter with AIDesk!
+                    </P>
+                    <a href="https://github.com/Desai-Vedant/AIDesk" id="aidesk-link" target="_blank">CHECK OUT</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="CONTACT" style="background-image: url(https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80); background-size: cover;">
+        <div class="contact">
+            <div class="contact-header">
+                <h1>CONTACT</h1>
+                <div class="hor-bar-cont">
+                    <div class="horizontal-bar"></div>
+                </div>
+                <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
+            </div>
+            <div class="form-container">
+                <div class="form">
+                    <label for="name">Name</label>
+                    <input type="text" id="message" placeholder="Enter Name">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com">
+                    <label for="message">Message</label>
+                    <textarea name="text-message" id="text-message" cols="30" rows="10" placeholder="Enter Message"></textarea>
+                    <button id="submit-button">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-upper">
+            <div class="footer-details">
+                <h4>VEDANT DESAI</h4>
+                <P>A creative web developer and designer <br>Explore my work below, <br> where art meets code.</P>
+            </div>
+            <div class="footer-links">
+                <h4>SOCIAL</h4>
+                <a href="https://www.linkedin.com/in/desai-vedant/"><img src="./Portfolio Page/linkedin.png" alt="linkedin"></a>
+                <a href="https://www.github.com/desai-vedant/"><img src="./Portfolio Page/github.png" alt="github"></a>
+                <a href="https://www.twitter.com/Desai_vedant_10"><img src="./Portfolio Page/twitter.png" alt="twitter"></a>
+            </div>
+        </div>
+        <div class="footer-lower">
+            <p>© Copyright 2023. Made by Vedant Desai</p>
+        </div>
+    </footer>
+</body>
+</html>
