@@ -396,3 +396,49 @@ footer{
     align-self: center;
     border-radius: 5px;
 }
+
+
+
+@media (max-width:600px){
+    .about-container{
+        flex-direction: column;
+    }
+
+    .about-details{
+        width: 100%;
+    }
+
+    .about-skills{
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    #PROJECTS{
+        margin: 0px;
+    }
+
+    .projects{
+        margin-bottom: 40px;
+    }
+
+    .project-row{
+        flex-direction: column;
+        
+    }
+
+    .project-details{
+        width: 100%;
+    }
+
+    .project-image{
+        width: 100%;
+    }
+
+    .header-navigation > nav > a{
+        display: none;
+    }
+
+    #contact-nav{
+        display: block;
+    }
+}
